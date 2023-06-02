@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c5fb3b11adef12f4248620bf3a36555e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c5fb3b11adef12f4248620bf3a36555e" ></div>
+        
+</body>
+<script>    
+    
+            var map_c5fb3b11adef12f4248620bf3a36555e = L.map(
+                "map_c5fb3b11adef12f4248620bf3a36555e",
+                {
+                    center: [37.80202657116446, -122.25058243232927],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_964676f7598b2bd3c65c11be61f3134f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c5fb3b11adef12f4248620bf3a36555e);
+        
+    
+            var marker_bddced8a5e3d789bc5a090c2b3d20096 = L.marker(
+                [37.81198231385168, -122.2666132],
+                {}
+            ).addTo(map_c5fb3b11adef12f4248620bf3a36555e);
+        
+    
+            var icon_adc18e311c0ca1668d46779bda1e0137 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bddced8a5e3d789bc5a090c2b3d20096.setIcon(icon_adc18e311c0ca1668d46779bda1e0137);
+        
+    
+        var popup_9d33ac21919621c1e513a26ab876b219 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33e0d92070085498c6a11b61fc34a2eb = $(`<div id="html_33e0d92070085498c6a11b61fc34a2eb" style="width: 100.0%; height: 100.0%;"><div style='width: 250px;'>Name: Parche<br>Rating: 4.5 ⭐️⭐️⭐️⭐️<br>Address: 2295 Broadway Oakland, CA 94612</div></div>`)[0];
+            popup_9d33ac21919621c1e513a26ab876b219.setContent(html_33e0d92070085498c6a11b61fc34a2eb);
+        
+
+        marker_bddced8a5e3d789bc5a090c2b3d20096.bindPopup(popup_9d33ac21919621c1e513a26ab876b219)
+        ;
+
+        
+    
+    
+            var marker_567f5f6b7c8ca8c71fd428045f70fbcf = L.marker(
+                [37.8113694419706, -122.24299026164636],
+                {}
+            ).addTo(map_c5fb3b11adef12f4248620bf3a36555e);
+        
+    
+            var icon_1258313455d663464fa716496db502b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_567f5f6b7c8ca8c71fd428045f70fbcf.setIcon(icon_1258313455d663464fa716496db502b0);
+        
+    
+        var popup_bbe0edeb730e07255f7111f3ec220414 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d46e164a1cb6178bedeb4cb54904fb9f = $(`<div id="html_d46e164a1cb6178bedeb4cb54904fb9f" style="width: 100.0%; height: 100.0%;"><div style='width: 250px;'>Name: Shakewell<br>Rating: 4.0 ⭐️⭐️⭐️⭐️<br>Address: 3407 Lakeshore Ave Oakland, CA 94610</div></div>`)[0];
+            popup_bbe0edeb730e07255f7111f3ec220414.setContent(html_d46e164a1cb6178bedeb4cb54904fb9f);
+        
+
+        marker_567f5f6b7c8ca8c71fd428045f70fbcf.bindPopup(popup_bbe0edeb730e07255f7111f3ec220414)
+        ;
+
+        
+    
+    
+            var marker_b0eccbe611d7b67881a2ec6b0e96f862 = L.marker(
+                [37.809145, -122.254502],
+                {}
+            ).addTo(map_c5fb3b11adef12f4248620bf3a36555e);
+        
+    
+            var icon_20a2f91bbd87c9be2b2b0653c1d80772 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b0eccbe611d7b67881a2ec6b0e96f862.setIcon(icon_20a2f91bbd87c9be2b2b0653c1d80772);
+        
+    
+        var popup_e69829244081a4e247742bb127c60a9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_794bb11abca1787f40a4f6cb99e8c1b7 = $(`<div id="html_794bb11abca1787f40a4f6cb99e8c1b7" style="width: 100.0%; height: 100.0%;"><div style='width: 250px;'>Name: Mama Oakland<br>Rating: 4.5 ⭐️⭐️⭐️⭐️<br>Address: 388 Grand Ave Oakland, CA 94610</div></div>`)[0];
+            popup_e69829244081a4e247742bb127c60a9d.setContent(html_794bb11abca1787f40a4f6cb99e8c1b7);
+        
+
+        marker_b0eccbe611d7b67881a2ec6b0e96f862.bindPopup(popup_e69829244081a4e247742bb127c60a9d)
+        ;
+
+        
+    
+    
+            var marker_23100fc100de3fc8046f1bde1f70d387 = L.marker(
+                [37.8126641, -122.2473585],
+                {}
+            ).addTo(map_c5fb3b11adef12f4248620bf3a36555e);
+        
+    
+            var icon_fa9b4c8ed6c4a5489d23bc1e8f179a07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_23100fc100de3fc8046f1bde1f70d387.setIcon(icon_fa9b4c8ed6c4a5489d23bc1e8f179a07);
+        
+    
+        var popup_26ca841bab73d82c1f01bad3b2506d5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d77b3a254fd9212d170fb0b73954252 = $(`<div id="html_9d77b3a254fd9212d170fb0b73954252" style="width: 100.0%; height: 100.0%;"><div style='width: 250px;'>Name: Almond & Oak<br>Rating: 4.5 ⭐️⭐️⭐️⭐️<br>Address: 3311 Grand Ave Oakland, CA 94610</div></div>`)[0];
+            popup_26ca841bab73d82c1f01bad3b2506d5f.setContent(html_9d77b3a254fd9212d170fb0b73954252);
+        
+
+        marker_23100fc100de3fc8046f1bde1f70d387.bindPopup(popup_26ca841bab73d82c1f01bad3b2506d5f)
+        ;
+
+        
+    
+    
+            var marker_75c5a091dd0816db8f7b4abdf068ec55 = L.marker(
+                [37.764972, -122.2414482],
+                {}
+            ).addTo(map_c5fb3b11adef12f4248620bf3a36555e);
+        
+    
+            var icon_bc139fb9bf37c1a9c5a99d393cc6fad6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_75c5a091dd0816db8f7b4abdf068ec55.setIcon(icon_bc139fb9bf37c1a9c5a99d393cc6fad6);
+        
+    
+        var popup_5f84d4f2eba0fc71d4932b7bade502fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6074d24e305daeabd6fec4ab7d66cfa0 = $(`<div id="html_6074d24e305daeabd6fec4ab7d66cfa0" style="width: 100.0%; height: 100.0%;"><div style='width: 250px;'>Name: Tasty Point<br>Rating: 4.0 ⭐️⭐️⭐️⭐️<br>Address: 2412 Santa Clara Ave Alameda, CA 94501</div></div>`)[0];
+            popup_5f84d4f2eba0fc71d4932b7bade502fd.setContent(html_6074d24e305daeabd6fec4ab7d66cfa0);
+        
+
+        marker_75c5a091dd0816db8f7b4abdf068ec55.bindPopup(popup_5f84d4f2eba0fc71d4932b7bade502fd)
+        ;
+
+        
+    
+</script>
